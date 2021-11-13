@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DIV排版ψ(ˋ∇´)ψ</title>
+    <style>
+        .box{
+            margin: 0 auto;
+            margin-top: 5px;
+            width: 800px;
+            height: 600px;
+        }
+        .d2 {
+            height: 300px;
+        }
+        header {
+            width:800px;
+            height:100px;
+            float: left;
+            background-color: orange;
+        }
+        nav {
+            float: left;
+            width:800px;
+            height:20px;
+            margin-top:5px;
+            margin-bottom:5px;
+            background-color: deeppink;
+        }
+        aside {
+            float:left;
+            width:20%; 
+            background-color:pink;
+            height:350px;
+        }
+        .content {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        article {
+            float: right;
+            width: 79%;
+            height: 350px;
+            background-color: deepskyblue;
+        }
+        section {
+            position: relative;
+            background-color: yellow;
+            width: 98%;
+            height:100px;
+            top: 225px;
+            left: 6px;
+        }
+        footer{
+            clear: both;
+            background-color: darkseagreen;
+            width : 800px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="d1">
+            <p align="center">
+            </p>
+        </div>
+        <header>header</header>
+        <nav>nav</nav>
+        <div class="content">
+            <aside>aside</aside>
+            <article>
+                article
+                <section>
+                    section
+                </section>
+            </article>
+        </div>
+        <footer>footer</footer>
+    </div>
+    <div class="d2"></div>
+</body>
+</html>
